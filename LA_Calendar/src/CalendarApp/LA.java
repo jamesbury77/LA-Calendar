@@ -25,6 +25,6 @@ public class LA {
 	}
 	
 	public void setHoursLeft(){
-		workedHours = 
+		workedHours -= 1;
 	}
 }
