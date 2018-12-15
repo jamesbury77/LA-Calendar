@@ -9,7 +9,7 @@ import java.util.HashMap;
 public class csvReader {
 
 	public static void main(String[] args){
-		String csvFile = "/Users/katherinegriffin/Downloads/responses1.csv";
+		String csvFile = "responses1.csv";
         BufferedReader br = null;
         String line = "";
         String cvsSplitBy = ",";
