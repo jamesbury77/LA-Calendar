@@ -32,12 +32,9 @@ public class csvReader {
                 for (int i = 2; i < resources.length; i++){
                 	if (time.containsKey(resources[i])){
                 		avail.add(time.get(resources[i]), la);
-                		System.out.printl);
-                		}
-                		
+                	}
                 	}
                 }
-            Arrays.toString(avail.toArray());
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
