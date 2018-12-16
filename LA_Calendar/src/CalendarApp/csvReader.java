@@ -37,7 +37,6 @@ public class csvReader {
                 		
                 	}
                 }
-            Arrays.toString(avail.toArray());
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
